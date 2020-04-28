@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+
+  # API get fetches
+  get '/users', to: 'users#index'
+  get '/users/:id', to: 'users#show'
+
+
   post '/users', to: 'users#create'
   post '/login', to: 'users#login'
   get '/persist', to: 'users#persist'
