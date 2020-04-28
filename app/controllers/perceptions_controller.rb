@@ -1,0 +1,2 @@
+class PerceptionsController < ApplicationController
+end
