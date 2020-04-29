@@ -1,11 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
 User.destroy_all
 Session.destroy_all
 Perception.destroy_all
@@ -48,6 +40,5 @@ session1_perceptions = Perception.create([
     {note: "a lot of my thoughts are observations trying to understand how the world works", session: session1},
     {note: "fire engine sirens elicit a panic response. I can feel my muscles bracing slightly. I can relax that.", session: session1}
     ])
-
 
 puts 'The seeds have been sown my liege! 👶👶👶'

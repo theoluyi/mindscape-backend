@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/users', to: 'users#index'
   get '/users/:id', to: 'users#show'
 
-
+  # more advanced actions
   post '/users', to: 'users#create'
   post '/login', to: 'users#login'
   get '/persist', to: 'users#persist'
