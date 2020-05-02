@@ -17,7 +17,12 @@
 * A user can save a session and view it later
 
 ### `Nice Links Princess`
-1. [Serializing deeply nested associations with active_model_serializers] (https://stackoverflow.com/questions/32079897/serializing-deeply-nested-associations-with-active-model-serializers)
+1. [Serializing deeply nested associations with active_model_serializers](https://stackoverflow.com/questions/32079897/serializing-deeply-nested-associations-with-active-model-serializers)
 * https://github.com/rails-api/active_model_serializers/blob/v0.10.6/docs/general/adapters.md#include-option
 
-2. [Adding a column to an existing table in a Rails migration] (https://stackoverflow.com/questions/4834809/adding-a-column-to-an-existing-table-in-a-rails-migration)
+2. [Adding a column to an existing table in a Rails migration](https://stackoverflow.com/questions/4834809/adding-a-column-to-an-existing-table-in-a-rails-migration)
+
+3. [Semantic Date Pickers NPM](https://www.npmjs.com/package/react-semantic-ui-datepickers)
+* [Semantic Date Pickers Storybook](https://react-semantic-ui-datepickers.now.sh/)
+* [Semantic Date Pickers Github](https://github.com/arthurdenner/react-semantic-ui-datepickers)
+
