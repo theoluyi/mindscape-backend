@@ -8,6 +8,15 @@ class SessionsController < ApplicationController
 
     def create
         @session = @user.sessions.create(session_params)
+        # can create perceptions mapping over here
+        # might have a problem and need to exclude
+        # method in ruby called except which non destructively removes a key from a hash
+
+        # each is better than map here bc not creating an array, React kinda just happens to use map a ton
+        
+        # eventually: following perfect ruby conventions, moving code over to sessions model
+        # create method that takes in user and parameters, 
+        # @session.perceptions.create()
         render json: @session
     end 
 

@@ -6,7 +6,7 @@ class PerceptionsController < ApplicationController
 
     def create
         # we need a .map here because we have multiple perceptions coming in
-        byebug
+        # byebug
         # @perception = @user.sessions.perceptions.create(perception_params)
         # render json: @perception
     end
