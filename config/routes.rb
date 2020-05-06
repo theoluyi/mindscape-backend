@@ -12,9 +12,11 @@ Rails.application.routes.draw do
   # get '/sessions', to: 'users#sessions'
   # what is this for ^^^ ? 
 
-
   get '/sessions', to: 'sessions#index'
   post '/sessions', to: 'sessions#create'
+
+  get '/perceptions', to: 'perceptions#index'
+  post '/perceptions', to: 'perceptions#create'
 
    # this is what I'll fetch to display a single user's sessions and perceptions on the page
   # yes, right, because if I use auth, I can show the JWT to identify the user,

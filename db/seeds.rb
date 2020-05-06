@@ -24,28 +24,7 @@ session1 = Session.create(
     of undivided light. Or the other notion that,
     because there is in this world no one thing
     to which the bramble of blackberry corresponds,
-    a word is elegy to what it signifies.
-    We talked about it late last night and in the voice
-    of my friend, there was a thin wire of grief, a tone
-    almost querulous. After a while I understood that,
-    talking this way, everything dissolves: justice,
-    pine, hair, woman, you and I. There was a woman
-    I made love to and I remembered how, holding
-    her small shoulders in my hands sometimes,
-    I felt a violent wonder at her presence
-    like a thirst for salt, for my childhood river
-    with its island willows, silly music from the pleasure boat,
-    muddy places where we caught the little orange-silver fish
-    called pumpkinseed. It hardly had to do with her.
-    Longing, we say, because desire is full
-    of endless distances. I must have been the same to her.
-    But I remember so much, the way her hands dismantled bread,
-    the thing her father said that hurt her, what
-    she dreamed. There are moments when the body is as numinous
-    as words, days that are the good flesh continuing.
-    Such tenderness, those afternoons and evenings,
-    saying blackberry, blackberry, blackberry.
-    "
+    a word is elegy to what it signifies."
 )
 session2 = Session.create( 
     start_time: '2020/4/23 08:00:00',
@@ -148,3 +127,8 @@ session3_perceptions = Perception.create([
     # ])
 
 puts 'The seeds have been sown my liege! 👶👶👶'
+
+# additional summary seeds
+# I noticed that at the end of the meditation when Jeff Warren said 'ok now stop meditating and just relax' I wasn't really sure what to do. It's like telling you not to think of anything. It feels like telling you not to think of a pink elephant. It made me think I should play with this concept more. It made me wonder if I'm constantly bracing against distractions, which might be mentally taxing and unnecessary, especially if I never take a break from doing that.	
+# I betrayed this app and meditated on my other meditation app called calm with a nice man named Jeff Warren who is cool and teaches meditation well.	
+# this is a test. you are dreaming.	
