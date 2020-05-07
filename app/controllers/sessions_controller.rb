@@ -15,11 +15,16 @@ class SessionsController < ApplicationController
     # create method that takes in user and parameters, 
     # @session.perceptions.create()
     def create
+        # byebug
         @session = Session.create(sesh_params)
 
-        perception_params[:perceptions].each do |perception|
-            # byebug
-            @session.perceptions.create(note: perception)
+        # exclude sessions being created in session creator from this action
+        # because they have no perceptions
+        if perception_params[:perceptions] != []
+            perception_params[:perceptions].each do |perception|
+                # byebug
+                @session.perceptions.create(note: perception)
+            end 
         end 
 
         render json: @session
