@@ -19,7 +19,7 @@ class UsersController < ApplicationController
             wristband = encode_token({user_id: @user.id})
             render json: { user: UserSerializer.new(@user), token: wristband }, status: 201
         else 
-            render json: { error: "Nice try bub, you failed to create a new user." }, status: 401
+            render json: { error: "Invalid new user, please try again." }, status: 401
         end 
     end
 
@@ -30,7 +30,7 @@ class UsersController < ApplicationController
           wristband = encode_token({user_id: @user.id})
           render json: { user: UserSerializer.new(@user), token: wristband }
         else 
-          render json: {error: "Nice job dbag"}, status: 401
+          render json: {error: "Invalid log in. Note that usernames are case-sensitive. Please try again."}, status: 401
         end
     end
 
